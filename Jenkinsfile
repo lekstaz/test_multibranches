@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage ('Script') {
       steps {
-        sh 'chmod +x rondoudou.sh'
+        sh 'chmod +x roudoudou.sh'
         sh './roudoudou.sh'
       }
     }
